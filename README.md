@@ -1,6 +1,6 @@
 # Desafío para Software Engineers
 
-Nombre postulante: Marcelo Stefano Vasquez Muñoz
+Nombre postulante: [TU NOMBRE]
 Link a la app en producción: [LINK DEL DEPLOY]
 
 ## Instrucciones
