@@ -1,0 +1,23 @@
+{
+  "name": "dev-challenge-template-master",
+  "version": "1.0.0",
+  "description": "Nombre postulante: Marcelo Stefano Vasquez Muñoz Link a la app en producción: [LINK DEL DEPLOY]",
+  "main": "index.js",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloVasquez662/dev-challenge-template-master.git"
+  },
+  "author": "Marcelo Vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloVasquez662/dev-challenge-template-master/issues"
+  },
+  "homepage": "https://github.com/MarceloVasquez662/dev-challenge-template-master#readme"
+}
