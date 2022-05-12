@@ -23,6 +23,11 @@ h5 {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .tarjeta {
   border-radius: 10px;
   border-color: #000;

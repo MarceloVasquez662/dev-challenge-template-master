@@ -4,17 +4,20 @@ const Header = () => {
     return (
         <div className='jumbotron text-center'>
             <h1>Buscador de paises
-                <span>
+                <span role="img" aria-label='emoji'>
                     &#x1F30E;
                 </span>
             </h1>
-            <p>Utiliza el cuadro de busqueda y encuentra el pais que desees
-                <span className='emoji'>
+            <p>Utiliza el cuadro de busqueda y encuentra el país que desees
+                <span className='emoji' role="img" aria-label='emoji'>
                     &#x1F60E;
                 </span>
             </p>
+            <p>Además, puedes presionar el nombre del pais para conseguir mas información <span className='emoji' role="img" aria-label='emoji'>
+                &#x1F5FA;
+            </span></p>
 
-        </div>
+        </div >
     )
 }
 
