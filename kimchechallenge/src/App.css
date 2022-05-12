@@ -1,38 +1,67 @@
-.App {
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+
+  padding: 5%;
+}
+
+.paisFormulario {
+  margin: 1%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.agruparPor {
+  margin: 1%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5 {
+  display: inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.tarjeta {
+  border-radius: 10px;
+  border-color: #000;
+  border-style: solid;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+
+  background-size: cover;
+
+  padding: 20px;
+  margin: 1%;
+  width: 40%
 }
 
-.App-link {
-  color: #61dafb;
+.tarjeta .cuerpo {
+  background-color: rgba(0, 0, 0, .7);
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  height: 100%;
+  padding: 20px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:900px) {
+  .tarjeta {
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media(max-width:400px) {
+  .tarjeta {
+    width: 90%;
+  }
+
+  .jumbotron {
+    padding: 15%;
+  }
+
+  .formulario {
+    margin-top: 20px;
   }
 }
