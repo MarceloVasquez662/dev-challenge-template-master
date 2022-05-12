@@ -23,6 +23,10 @@ h5 {
   display: inline;
 }
 
+hr {
+  width: 50%;
+}
+
 a {
   text-decoration: none;
   color: white;
