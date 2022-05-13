@@ -12,15 +12,14 @@ function CardPaises(props) {
                 <p className="badge bg-info text-dark m-1">Moneda: {props.moneda}</p>
                 <p className="badge bg-danger text-white m-1">{props.continente}</p>
                 {
-                    <p className="badge bg-dark text-white m-1">
-                        Idiomas:
-                        {props.idiomas.map((idiomas, index) => {
-                            if (index > 0) {
-                                return " / " + idiomas.name
-                            }
-                            return " " + idiomas.name
+                    <div>
+                        <p className="text-white m-1">
+                            Idiomas:
+                        </p>
+                        {props.idiomas.map((idiomas) => {
+                            return <p className="badge bg-secondary m-1">{idiomas.name}</p>
                         })}
-                    </p>
+                    </div>
                 }
             </div>
         </div >

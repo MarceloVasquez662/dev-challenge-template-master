@@ -6,7 +6,7 @@ function PorIdioma(props) {
     let paises = []
     return (
         <div>
-            <div className="paises row justify-content-center">
+            <div>
                 {
                     // eslint-disable-next-line array-callback-return
                     props.paises.map(pais => {

@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <div className='jumbotron text-center'>
-            <h1>Buscador de paises
+            <h1>Buscador de países
                 <span role="img" aria-label='emoji'>
                     &#x1F30E;
                 </span>
@@ -13,7 +13,7 @@ const Header = () => {
                     &#x1F60E;
                 </span>
             </p>
-            <p>Además, puedes presionar el nombre del pais para conseguir mas información <span className='emoji' role="img" aria-label='emoji'>
+            <p>Además, puedes presionar el nombre del país para conseguir más información <span className='emoji' role="img" aria-label='emoji'>
                 &#x1F5FA;
             </span></p>
             <br />

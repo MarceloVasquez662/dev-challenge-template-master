@@ -1,6 +1,7 @@
 # Desafío para Software Engineers
 
 Nombre postulante: Marcelo Stefano Vasquez Muñoz
+
 Link a la app en producción: https://MarceloVasquez662.github.io/dev-challenge-template-master
 
 ## Instrucciones
@@ -44,3 +45,4 @@ Acá van algunas cosas que pueden ser útiles (o no 👀):
 - El link de la API que se consumia arrojaba errores, por lo que se cambio por la que se adjunto en este archivo (https://countries.trevorblades.com/)
 - Se utilizo Bootstrap para un mejor diseño, manteniendo la simpleza.
 - Deploy en Github Pages dado la facilidad de su despliegue
+- Iconos en navegadores como Opera, no muestran los emoji que representan los paises. En firefox o en Smartphone estos se representan de manera nativa.

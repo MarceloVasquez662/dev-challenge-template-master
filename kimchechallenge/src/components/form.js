@@ -70,7 +70,7 @@ class Form extends Component {
 
     render() {
         return (
-            < div >
+            <div>
                 <div className='paisFormulario'>
                     <form className='formulario'>
                         <input type="text" name="pais" id="pais" placeholder='Busca tu país aquí' className='form-control' onChange={this.buscarPais} />
@@ -86,9 +86,11 @@ class Form extends Component {
                             <h2>No hay resultados para tu busqueda </h2>
                         </div>
                         :
-                        <div className='agruparPor' id='agruparPor'>
-                            <h5>Agrupar por:</h5>
-                            <div className='switches justify-content-center'>
+                        <div>
+                            <div className='text-center mt-1'>
+                                <h5>Agrupar por:</h5>
+                            </div>
+                            <div className='switches'>
                                 <Switch id={"porContinente"} texto="Por continente" cambiarEstado={this.porContinente} />
                                 <Switch id={"porIdioma"} texto="Por idioma" cambiarEstado={this.porIdioma} />
                             </div>
@@ -97,12 +99,10 @@ class Form extends Component {
                 }
                 {
                     this.state.porContinente === false && this.state.porIdioma === false &&
-                    <div>
-                        <div className="paises row justify-content-center">
-                            {this.state.paises.map(pais => {
-                                return <CardPaises key={pais.name} nombrePais={pais.name} codigo={pais.code} emoji={pais.emoji} capital={pais.capital} moneda={pais.currency} continente={pais.continent.name} idiomas={pais.languages} />
-                            })}
-                        </div>
+                    <div className="row justify-content-center">
+                        {this.state.paises.map(pais => {
+                            return <CardPaises key={pais.name} nombrePais={pais.name} codigo={pais.code} emoji={pais.emoji} capital={pais.capital} moneda={pais.currency} continente={pais.continent.name} idiomas={pais.languages} />
+                        })}
                     </div>
                 }
                 {
@@ -121,8 +121,7 @@ class Form extends Component {
                         })}
                     </div>
                 }
-
-            </ div >
+            </div>
         )
     }
 }

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dev-challenge-template-master/static/css/main.121def65.css",
-    "main.js": "/dev-challenge-template-master/static/js/main.bab74f68.js",
+    "main.css": "/dev-challenge-template-master/static/css/main.1f32f392.css",
+    "main.js": "/dev-challenge-template-master/static/js/main.de39459f.js",
     "static/media/fondoCard.jpg": "/dev-challenge-template-master/static/media/fondoCard.e18645b37b4e6466ca1b.jpg",
     "index.html": "/dev-challenge-template-master/index.html",
-    "main.121def65.css.map": "/dev-challenge-template-master/static/css/main.121def65.css.map",
-    "main.bab74f68.js.map": "/dev-challenge-template-master/static/js/main.bab74f68.js.map"
+    "main.1f32f392.css.map": "/dev-challenge-template-master/static/css/main.1f32f392.css.map",
+    "main.de39459f.js.map": "/dev-challenge-template-master/static/js/main.de39459f.js.map"
   },
   "entrypoints": [
-    "static/css/main.121def65.css",
-    "static/js/main.bab74f68.js"
+    "static/css/main.1f32f392.css",
+    "static/js/main.de39459f.js"
   ]
 }
