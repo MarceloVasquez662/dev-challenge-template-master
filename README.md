@@ -1,6 +1,6 @@
 # Desafío para Software Engineers
 
-Nombre postulante: [Marcelo Stefano Vasquez Muñoz]
+Nombre postulante: Marcelo Stefano Vasquez Muñoz
 Link a la app en producción: https://MarceloVasquez662.github.io/dev-challenge-template-master
 
 ## Instrucciones
