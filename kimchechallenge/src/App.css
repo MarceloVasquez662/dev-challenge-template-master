@@ -1,3 +1,46 @@
+h5 {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
+span:hover,
+p:hover,
+h1:hover,
+h3:hover,
+h4:hover,
+h5:hover {
+  cursor: default;
+}
+
+.tarjeta {
+  border-radius: 10px;
+  border-color: #000;
+  border-style: solid;
+
+  color: white;
+
+  background-size: cover;
+
+  padding: 20px;
+  margin: 1%;
+  width: 40%
+}
+
+.tarjeta:hover {
+  filter: saturate(200%);
+  transition: all .5s ease-in-out
+}
+
 .jumbotron {
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
@@ -19,40 +62,17 @@
   text-align: center;
 }
 
-h5 {
-  display: inline;
-}
-
-hr {
-  width: 50%;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.tarjeta {
-  border-radius: 10px;
-  border-color: #000;
-  border-style: solid;
-
-  color: white;
-
-  background-size: cover;
-
-  padding: 20px;
-  margin: 1%;
-  width: 40%
-}
-
 .tarjeta .cuerpo {
   background-color: rgba(0, 0, 0, .7);
   backdrop-filter: blur(1px);
   border-radius: 10px;
   height: 100%;
   padding: 20px;
+}
 
+.switches {
+  display: flex;
+  justify-content: space-between space-around;
 }
 
 @media(max-width:900px) {
@@ -63,6 +83,10 @@ a {
 
 @media(max-width:400px) {
   .tarjeta {
+    width: 90%;
+  }
+
+  .tituloContinentes {
     width: 90%;
   }
 
