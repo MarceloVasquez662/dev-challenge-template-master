@@ -41,6 +41,6 @@ Acá van algunas cosas que pueden ser útiles (o no 👀):
 
 ## Comentarios
 
-- El link de la API que se consumia arrojaba errores, por lo que se cambio por la que se adjunto es ente archivo (https://countries.trevorblades.com/)
+- El link de la API que se consumia arrojaba errores, por lo que se cambio por la que se adjunto en este archivo (https://countries.trevorblades.com/)
 - Se utilizo Bootstrap para un mejor diseño, manteniendo la simpleza.
 - Deploy en Github Pages dado la facilidad de su despliegue
