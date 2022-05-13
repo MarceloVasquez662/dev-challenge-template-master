@@ -16,6 +16,11 @@ const Header = () => {
             <p>Además, puedes presionar el nombre del pais para conseguir mas información <span className='emoji' role="img" aria-label='emoji'>
                 &#x1F5FA;
             </span></p>
+            <br />
+            <br />
+            <h4>Creado por Marcelo Vásquez <span className='emoji' role="img" aria-label='emoji'>
+                &#x1F412;
+            </span></h4>
 
         </div >
     )
